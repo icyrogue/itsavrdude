@@ -10,8 +10,8 @@ int main (void)
     while(1)
     {
         PORTB |= 0x01;
-        _delay_ms(500);
+        _delay_ms(2000);
         PORTB &= 0xFE;
-        _delay_ms(500);
+        _delay_ms(2000);
     }
 }
